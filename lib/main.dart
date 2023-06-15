@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         scaffoldBackgroundColor: Colors.white.withAlpha(190),
+        cardTheme: const CardTheme(
+          surfaceTintColor: Colors.white,
+        ),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
